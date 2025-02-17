@@ -63,8 +63,8 @@ def get_news(topic):
 
 
 class AssistantManager:
-    thread_id = None
-    assistant_id = None
+    thread_id = "thread_joGd8PEMtdq9nG6Ch4kSTJPj"
+    assistant_id = "asst_kJF0quwadNmkCAS73DQn83WI"
 
     def __init__(self, model: str = model):
         self.client = client
